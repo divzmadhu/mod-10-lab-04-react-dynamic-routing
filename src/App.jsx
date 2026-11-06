@@ -1,7 +1,9 @@
+import { Routes, Route } from 'react-router-dom'
+
 export default function App(){
   return(
-    <div>
-      Hello World
-    </div>
+    <Routes>
+      <Route path="/blog" element={<h1>Blog Home</h1>} />
+    </Routes>
   )
 }
