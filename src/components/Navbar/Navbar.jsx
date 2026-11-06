@@ -1,6 +1,6 @@
 import {NavLink } from "react-router-dom"
 
-function Navbar() {
+export default function Navbar() {
     return(
         <nav>
             <h2>My Blog</h2>
