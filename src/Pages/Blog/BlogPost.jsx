@@ -20,7 +20,7 @@ export default function BlogPost(){
             <h1>{post.title}</h1>
             <p>{post.content}</p>
 
-            <Link to = "/blog">Back to Blog</Link>
+            <Link to = "/blog">Back to Explore</Link>
         </div>
 
 

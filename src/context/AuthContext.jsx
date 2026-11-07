@@ -17,7 +17,7 @@ export default function AuthProvider({children}){
 
     //Function to log out
     const logout=()=>{
-        isAuthenticated(false);
+        setIsAuthenticated(false);
     }
 
     return(
